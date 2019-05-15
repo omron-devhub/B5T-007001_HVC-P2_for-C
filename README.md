@@ -21,7 +21,7 @@
 
 ### Contents
 ***
- - sample codes ***for C*** is provided here.<br>
+ - sample code ***for C*** is provided here.<br>
  - For notes and methods of usage, please confirm the "Read Me" attached with each sample file.
  - For the ***evaluation software*** and ***USB driver*** for Windows, please download from <B>[this page](https://www.components.omron.com/mobile/hvc_p2).</B>
  
