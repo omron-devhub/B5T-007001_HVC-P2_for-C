@@ -1,0 +1,39 @@
+; STB.def : DLL 用のモジュール パラメータ宣言
+
+LIBRARY      "STB.dll"
+
+EXPORTS
+;ハンドル、初期化等関連
+	STB_GetVersion                  @1      NONAME
+	STB_CreateHandle                @2      NONAME
+	STB_DeleteHandle                @3      NONAME
+	STB_ClearFrameResults           @10     NONAME
+
+;処理関連
+	STB_SetFrameResult              @101    NONAME
+
+	STB_Execute                     @111    NONAME
+	STB_GetFaces                    @112    NONAME
+	STB_GetBodies                   @113    NONAME
+
+;設定及び取得関連
+	STB_SetTrRetryCount             @301    NONAME
+	STB_GetTrRetryCount             @302    NONAME
+	STB_SetTrSteadinessParam        @303    NONAME
+	STB_GetTrSteadinessParam        @304    NONAME
+
+	STB_SetPeThresholdUse           @401    NONAME
+	STB_GetPeThresholdUse           @402    NONAME
+	STB_SetPeAngleUse               @403    NONAME
+	STB_GetPeAngleUse               @404    NONAME
+	STB_SetPeCompleteFrameCount     @405    NONAME
+	STB_GetPeCompleteFrameCount     @406    NONAME
+
+	STB_SetFrThresholdUse           @501    NONAME
+	STB_GetFrThresholdUse           @502    NONAME
+	STB_SetFrAngleUse               @503    NONAME
+	STB_GetFrAngleUse               @504    NONAME
+	STB_SetFrCompleteFrameCount     @505    NONAME
+	STB_GetFrCompleteFrameCount     @506    NONAME
+	STB_SetFrMinRatio               @507    NONAME
+	STB_GetFrMinRatio               @508    NONAME
