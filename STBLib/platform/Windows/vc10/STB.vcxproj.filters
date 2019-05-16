@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\STB">
+      <UniqueIdentifier>{9b3bba6d-6f1b-453f-bb28-b09f870135e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\STB">
+      <UniqueIdentifier>{0449ab21-84a9-4c48-abec-05abc0800942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\STB_FaceRecognition">
+      <UniqueIdentifier>{13294b09-7854-4583-b36b-e0c6a70dbdb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\STB_Property">
+      <UniqueIdentifier>{095ebec6-59e5-4db9-a19b-89cd661aae03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\STB_Tracker">
+      <UniqueIdentifier>{c8b52aae-a1fc-42fb-b8aa-1ca47be8687d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\STB_FaceRecognition">
+      <UniqueIdentifier>{14c0710b-a284-4205-bcf9-ede9ade061e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\STB_Property">
+      <UniqueIdentifier>{44695966-d88a-420d-81ee-566af481ef98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\STB_Tracker">
+      <UniqueIdentifier>{fb5ebea5-35a0-48c7-a89d-e31fb7a8ec8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\include">
+      <UniqueIdentifier>{7c491709-9774-4256-951c-bbe5c8b6550b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\src\STB\Interface.c">
+      <Filter>ソース ファイル\STB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\src\STB\STBAPI.c">
+      <Filter>ソース ファイル\STB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\src\STB\STBFaceInfo.c">
+      <Filter>ソース ファイル\STB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\src\STB\STBMakeResult.c">
+      <Filter>ソース ファイル\STB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\src\STB\STBTracking.c">
+      <Filter>ソース ファイル\STB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\src\STB\STBValidValue.c">
+      <Filter>ソース ファイル\STB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\src\STB_Tracker\SdkSTBTr.c">
+      <Filter>ソース ファイル\STB_Tracker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\src\STB_Tracker\STBTrAPI.c">
+      <Filter>ソース ファイル\STB_Tracker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\src\STB_Tracker\STBTrValidValue.c">
+      <Filter>ソース ファイル\STB_Tracker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\src\STB_Tracker\TrInterface.c">
+      <Filter>ソース ファイル\STB_Tracker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\src\STB_Property\PeInterface.c">
+      <Filter>ソース ファイル\STB_Property</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\src\STB_Property\SdkSTBPe.c">
+      <Filter>ソース ファイル\STB_Property</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\src\STB_Property\STBPeAPI.c">
+      <Filter>ソース ファイル\STB_Property</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\src\STB_Property\STBPeValidValue.c">
+      <Filter>ソース ファイル\STB_Property</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\src\STB_FaceRecognition\FrInterface.c">
+      <Filter>ソース ファイル\STB_FaceRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\src\STB_FaceRecognition\SdkSTBFr.c">
+      <Filter>ソース ファイル\STB_FaceRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\src\STB_FaceRecognition\STBFrAPI.c">
+      <Filter>ソース ファイル\STB_FaceRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\src\STB_FaceRecognition\STBFrValidValue.c">
+      <Filter>ソース ファイル\STB_FaceRecognition</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="STB.rc">
+      <Filter>ソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\src\STB\Interface.h">
+      <Filter>ヘッダー ファイル\STB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\STB\STBAPI.h">
+      <Filter>ヘッダー ファイル\STB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\STB\STBValidValue.h">
+      <Filter>ヘッダー ファイル\STB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\STB_FaceRecognition\FrInterface.h">
+      <Filter>ヘッダー ファイル\STB_FaceRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\STB_FaceRecognition\SdkSTBFr.h">
+      <Filter>ヘッダー ファイル\STB_FaceRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\STB_FaceRecognition\STBFrAPI.h">
+      <Filter>ヘッダー ファイル\STB_FaceRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\STB_FaceRecognition\STBFrValidValue.h">
+      <Filter>ヘッダー ファイル\STB_FaceRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\STB_Property\PeInterface.h">
+      <Filter>ヘッダー ファイル\STB_Property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\STB_Property\SdkSTBPe.h">
+      <Filter>ヘッダー ファイル\STB_Property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\STB_Property\STBPeAPI.h">
+      <Filter>ヘッダー ファイル\STB_Property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\STB_Property\STBPeValidValue.h">
+      <Filter>ヘッダー ファイル\STB_Property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\STB_Tracker\SdkSTBTr.h">
+      <Filter>ヘッダー ファイル\STB_Tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\STB_Tracker\STBTrAPI.h">
+      <Filter>ヘッダー ファイル\STB_Tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\STB_Tracker\STBTrValidValue.h">
+      <Filter>ヘッダー ファイル\STB_Tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\STB_Tracker\TrInterface.h">
+      <Filter>ヘッダー ファイル\STB_Tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\include\SdkSTBFr.h">
+      <Filter>ヘッダー ファイル\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\include\SdkSTBPe.h">
+      <Filter>ヘッダー ファイル\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\include\SdkSTBTr.h">
+      <Filter>ヘッダー ファイル\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\include\STB_Debug.h">
+      <Filter>ヘッダー ファイル\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\include\STBCommonDef.h">
+      <Filter>ヘッダー ファイル\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\include\STBCommonType.h">
+      <Filter>ヘッダー ファイル\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\include\STBFaceInfo.h">
+      <Filter>ヘッダー ファイル\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\include\STBFrTypedef.h">
+      <Filter>ヘッダー ファイル\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\include\STBHandle.h">
+      <Filter>ヘッダー ファイル\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\include\STBMakeResult.h">
+      <Filter>ヘッダー ファイル\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\include\STBPeTypedef.h">
+      <Filter>ヘッダー ファイル\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\include\STBTracking.h">
+      <Filter>ヘッダー ファイル\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\include\STBTrTypedef.h">
+      <Filter>ヘッダー ファイル\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\include\STBTypedefInput.h">
+      <Filter>ヘッダー ファイル\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\src\include\STBTypedefOutput.h">
+      <Filter>ヘッダー ファイル\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="STB.def">
+      <Filter>ソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+</Project>

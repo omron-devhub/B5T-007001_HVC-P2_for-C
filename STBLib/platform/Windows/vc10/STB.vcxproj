@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\src\STB\Interface.c" />
+    <ClCompile Include="..\..\..\src\src\STB\STBAPI.c" />
+    <ClCompile Include="..\..\..\src\src\STB\STBFaceInfo.c" />
+    <ClCompile Include="..\..\..\src\src\STB\STBMakeResult.c" />
+    <ClCompile Include="..\..\..\src\src\STB\STBTracking.c" />
+    <ClCompile Include="..\..\..\src\src\STB\STBValidValue.c" />
+    <ClCompile Include="..\..\..\src\src\STB_FaceRecognition\FrInterface.c" />
+    <ClCompile Include="..\..\..\src\src\STB_FaceRecognition\SdkSTBFr.c" />
+    <ClCompile Include="..\..\..\src\src\STB_FaceRecognition\STBFrAPI.c" />
+    <ClCompile Include="..\..\..\src\src\STB_FaceRecognition\STBFrValidValue.c" />
+    <ClCompile Include="..\..\..\src\src\STB_Property\PeInterface.c" />
+    <ClCompile Include="..\..\..\src\src\STB_Property\SdkSTBPe.c" />
+    <ClCompile Include="..\..\..\src\src\STB_Property\STBPeAPI.c" />
+    <ClCompile Include="..\..\..\src\src\STB_Property\STBPeValidValue.c" />
+    <ClCompile Include="..\..\..\src\src\STB_Tracker\SdkSTBTr.c" />
+    <ClCompile Include="..\..\..\src\src\STB_Tracker\STBTrAPI.c" />
+    <ClCompile Include="..\..\..\src\src\STB_Tracker\STBTrValidValue.c" />
+    <ClCompile Include="..\..\..\src\src\STB_Tracker\TrInterface.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="STB.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\src\include\SdkSTBFr.h" />
+    <ClInclude Include="..\..\..\src\src\include\SdkSTBPe.h" />
+    <ClInclude Include="..\..\..\src\src\include\SdkSTBTr.h" />
+    <ClInclude Include="..\..\..\src\src\include\STBCommonDef.h" />
+    <ClInclude Include="..\..\..\src\src\include\STBCommonType.h" />
+    <ClInclude Include="..\..\..\src\src\include\STBFaceInfo.h" />
+    <ClInclude Include="..\..\..\src\src\include\STBFrTypedef.h" />
+    <ClInclude Include="..\..\..\src\src\include\STBHandle.h" />
+    <ClInclude Include="..\..\..\src\src\include\STBMakeResult.h" />
+    <ClInclude Include="..\..\..\src\src\include\STBPeTypedef.h" />
+    <ClInclude Include="..\..\..\src\src\include\STBTracking.h" />
+    <ClInclude Include="..\..\..\src\src\include\STBTrTypedef.h" />
+    <ClInclude Include="..\..\..\src\src\include\STBTypedefInput.h" />
+    <ClInclude Include="..\..\..\src\src\include\STBTypedefOutput.h" />
+    <ClInclude Include="..\..\..\src\src\include\STB_Debug.h" />
+    <ClInclude Include="..\..\..\src\src\STB\Interface.h" />
+    <ClInclude Include="..\..\..\src\src\STB\STBAPI.h" />
+    <ClInclude Include="..\..\..\src\src\STB\STBValidValue.h" />
+    <ClInclude Include="..\..\..\src\src\STB_FaceRecognition\FrInterface.h" />
+    <ClInclude Include="..\..\..\src\src\STB_FaceRecognition\SdkSTBFr.h" />
+    <ClInclude Include="..\..\..\src\src\STB_FaceRecognition\STBFrAPI.h" />
+    <ClInclude Include="..\..\..\src\src\STB_FaceRecognition\STBFrValidValue.h" />
+    <ClInclude Include="..\..\..\src\src\STB_Property\PeInterface.h" />
+    <ClInclude Include="..\..\..\src\src\STB_Property\SdkSTBPe.h" />
+    <ClInclude Include="..\..\..\src\src\STB_Property\STBPeAPI.h" />
+    <ClInclude Include="..\..\..\src\src\STB_Property\STBPeValidValue.h" />
+    <ClInclude Include="..\..\..\src\src\STB_Tracker\SdkSTBTr.h" />
+    <ClInclude Include="..\..\..\src\src\STB_Tracker\STBTrAPI.h" />
+    <ClInclude Include="..\..\..\src\src\STB_Tracker\STBTrValidValue.h" />
+    <ClInclude Include="..\..\..\src\src\STB_Tracker\TrInterface.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="STB.def" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9F4021E5-FE70-486E-8455-AF611815C26C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>STB</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../../../bin/Windows/vc10/$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../../../bin/Windows/vc10/$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;STB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../src/src/include;../../../src/src/STB;../../../src/src/STB_FaceRecognition;../../../src/src/STB_Property;;../../../src/src/STB_Tracker</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>STB.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;STB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../../src/src/include;../../../src/src/STB;../../../src/src/STB_FaceRecognition;../../../src/src/STB_Property;;../../../src/src/STB_Tracker</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>STB.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
