@@ -48,3 +48,4 @@ Click below links to visit their respective websites.
 - [Digikey](https://www.digikey.jp/products/en/sensors-transducers/image-sensors-camera/532?FV=fffc0027&k=B5T&pkeyword=B5T&cur=JPY&lang=en)
 - [Mouser](https://www.mouser.jp/Search/Refine?Keyword=B5T%E2%80%90007001)
 - [Chip One Stop](https://www.chip1stop.com/view/searchResult/SearchResultTop?dispPartIds=OMRO-0134830%7COMRO-0134831%7COMRO-0129488&cid=omronsensin)
+- [Farnell](https://uk.farnell.com/search?st=B5T-007001)
