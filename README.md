@@ -1,6 +1,6 @@
 ### Sample Code for B5T-007001(HVC-P2)
 ***
-- This is sample code for **[B5T-007001](https://www.components.omron.com/mobile/hvc_p2) (OMRON Human Vision Components HVC-P2)**.<br><br>
+- This is sample code for **[B5T-007001](https://components.omron.com/us-en/products/sensors/B5T) (OMRON Human Vision Components HVC-P2)**.<br><br>
 ![B5T_Image](https://user-images.githubusercontent.com/45954736/57432409-c778d800-7270-11e9-8ffa-b877cb26bae5.png)
 
 - HVC incorporates ten different image sensing functions below.
@@ -23,7 +23,7 @@
 ***
  - Sample code ***for C*** is provided here.<br>
  - For notes and methods of usage, please confirm the "Read Me" attached with each sample file.
- - For the ***evaluation software*** and ***USB driver*** for Windows, please download from <B>[this page](https://www.components.omron.com/mobile/hvc_p2).</B>
+ - For the ***evaluation software*** and ***USB driver*** for Windows, please download from <B>[this page](https://components.omron.com/us-en/products/sensors/B5T).</B>
  
  ![EvaluationSoftwareImage](https://user-images.githubusercontent.com/45954736/57433522-a82f7a00-7273-11e9-92eb-c3648ed695d7.png)
 
@@ -39,9 +39,9 @@
 - [OMRON Corporation / English](https://www.omron.com/)
 - [OMRON Corporation / Chinese](https://www.omron.com.cn/)
 - [OMRON Corporation / Japanese](https://www.omron.co.jp/)
-- [B5T-007001 (Human Vision Components HVC-P2) Product Page / English](https://www.components.omron.com/mobile/hvc_p2)
-- [B5T-007001 (Human Vision Components HVC-P2) Product Page / Chinese](https://www.ecb.omron.com.cn/web/cn/mobile/hvc_p2)
-- [B5T-007001 (Human Vision Components HVC-P2) Product Page / Japanese](https://www.omron.co.jp/ecb/product-info/image-sensing-/b5t-007001)
+- [B5T-007001 (Human Vision Components HVC-P2) Product Page / English](https://components.omron.com/us-en/products/sensors/B5T)
+- [B5T-007001 (Human Vision Components HVC-P2) Product Page / Chinese](https://components.omron.com.cn/products/sensors/B5T)
+- [B5T-007001 (Human Vision Components HVC-P2) Product Page / Japanese](https://components.omron.com/jp-ja/products/sensors/B5T)
 
 This product can be purchased from OMRON's distributors. <br>
 Click below links to visit their respective websites.
